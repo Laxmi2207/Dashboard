@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gradient{
+  background: rgb(19, 77, 171);
+  background: linear-gradient(158deg, rgb(12, 145, 34) 0%,rgb(110, 194, 71) 100%);
+}
+
+.gradientblue{
+  background: rgb(37, 13, 218);
+  background: linear-gradient(158deg, rgb(40, 145, 198) 0%,rgb(25, 39, 145) 100%);
+}
+.gradientorange{
+  background: rgb(202, 100, 49);
+  background: linear-gradient(158deg, rgb(232, 164, 91) 0%,rgb(189, 96, 19) 100%);
+}
+.bgcolor{
+  min-height: 100vh;
+  background: #ECEFF1;
+  background: linear-gradient(158deg,rgb(224,224,244) 0%,rrgb(233,237,254)100%);
+}
